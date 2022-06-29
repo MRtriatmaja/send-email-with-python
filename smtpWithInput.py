@@ -5,7 +5,6 @@ from email.message import EmailMessage
 
 print('''
 Program Kirim Email menggunakan Python
-Muhammad Rasyid Triatmaja (190010157)
 ''')
 
 dari   = input("dari   : ")
@@ -14,7 +13,6 @@ subjek = input("Subjek : ")
 pesan  = input("Pesan  : ")
 pwd    = getpass.getpass('Password anda: ')
 
-#print(type(dari), tujuan, subjek, pesan, pwd)
 
 msg = EmailMessage()
 msg['Subject'] = subjek
