@@ -25,7 +25,6 @@ try:
     server.login(dari, pwd)
     server.send_message(msg)
 except Exception as e:
-    print(e)
+    print("\nError : Tidak bisa mengirim pesan\n\n",e)
 finally:
-    print("\nemail anda berhasil dikirim!")
     server.quit()
