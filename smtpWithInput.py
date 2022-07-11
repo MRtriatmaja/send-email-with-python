@@ -7,11 +7,11 @@ print('''
 Program Kirim Email menggunakan Python
 ''')
 
-dari   = input("dari   : ")
-tujuan = input("Kepada : ")
-subjek = input("Subjek : ")
+dari   = input("From   : ")
+tujuan = input("To     : ")
+subjek = input("Subject: ")
 pesan  = input("Pesan  : ")
-pwd    = getpass.getpass('Password anda: ')
+pwd    = getpass.getpass('\nPassword anda: ')
 
 
 msg = EmailMessage()
